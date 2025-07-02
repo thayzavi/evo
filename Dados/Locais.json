@@ -1,0 +1,125 @@
+{
+  "hospitais": [
+    {
+      "nome": "Hospital Ulysses Pernambucano (HUP)",
+      "endereco": "Av. Conselheiro Rosa e Silva, 2130 – Tamarineira, Recife – PE",
+      "telefone": "(81) 3182-9906",
+      "descricao": "Emergência psiquiátrica 24h",
+      "imagem": "https://portal.saude.pe.gov.br/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-27-at-16.49.27.jpeg"
+    }
+  ],
+  "caps_recife": [
+    {
+      "nome": "CAPS Boa Vista",
+      "endereco": "Rua General José Semeão, 146 – Santo Amaro",
+      "telefone": "(81) 3355-4778 / 4779",
+      "horario": "Segunda a sexta, das 8h às 17h",
+      "imagem": "https://lh3.googleusercontent.com/p/AF1QipN25P4R4GDMKct_Y733qtolalVgp4iAptMcbB4X=s680-w680-h510-rw"
+    },
+    {
+      "nome": "CAPS AD Prof. Luiz Cerqueira",
+      "endereco": "Rua Álvares de Azevedo, 80 – Santo Amaro",
+      "telefone": "(81) 3355-4260 / 4261 / 4262",
+      "horario": "Atendimento 24h",
+      "imagem": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=0se6yv28SIJmV4EsDs1QJw&cb_client=search.gws-prod.gps&yaw=147.7759&pitch=0&thumbfov=100&w=326&h=160"
+    },
+    {
+      "nome": "CAPSi Prof. Zaldo Rocha",
+      "endereco": "Rua Castro Alves, 143 – Encruzilhada",
+      "telefone": "(81) 3355-4304",
+      "horario": "Segunda a sexta, das 8h às 17h",
+      "imagem": "https://lh3.googleusercontent.com/gps-cs/AIky0YX9gQa2mKh8AcFaSPpQJajYTHEB2uQHxHOisGMMscBeH62J5Q7AI8Vav2Le8ErT70EolL2A_uxP1sQqMnRmB_wqXU7aECn0hKNC61dGMfO0WLYY37HGU9Kj9zXe0nQlkyGBuoyo=w600-h988-p-k-no"
+    },
+    {
+      "nome": "CAPS AD Estação Vicente Araújo",
+      "endereco": "Rua Couto Magalhães, 480 – Rosarinho",
+      "telefone": "(81) 3355-4252 / 4253",
+      "horario": "Segunda a sexta, das 8h às 21h",
+      "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noAHBqaJ1C4vFsaBfS5N25mz4JCFzJJuQO3UdqUu5ZwLg9qcLKKEG1nMZf7jQJv-DrWS2MxnX_sA1OiIfq62CVYiz19sR4DhPyu772rsZLgnKH6HjEBWZ-iJOLGPGyQr3mvODe4bJ6o9jY=s680-w680-h510-rw"
+    },
+    {
+      "nome": "CAPS José Carlos Souto",
+      "endereco": "Rua Djalma Farias, 135 – Torreão",
+      "telefone": "(81) 3355-4300 / 4301",
+      "horario": "Todos os dias, das 7h às 19h",
+      "imagem": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?output=thumbnail&cb_client=lu.gallery.gps&panoid=uSKjdkSZ_vL4pJ5Wm4XJgQ&w=243&h=174&thumb=2&yaw=339.67245&pitch=0"
+    },
+    {
+      "nome": "CAPS Esperança",
+      "endereco": "Rua José Carvalheira, 415 – Tamarineira",
+      "telefone": "(81) 3355-4292 / 4293",
+      "horario": "Segunda a sexta, das 8h às 17h",
+      "imagem": "https://blogdarenata.com.br/wp-content/uploads/2024/08/b33d205a-ff01-4798-80d6-e5891871a771-768x512.jpg"
+    },
+    {
+      "nome": "CAPS AD Centro de Prevenção, Tratamento e Reabilitação de Alcoolismo (CPTRA)",
+      "endereco": "Av. Conselheiro Rosa e Silva, 2130 – Tamarineira",
+      "telefone": "(81) 3355-4324 / 4325",
+      "horario": "Atendimento 24h",
+      "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq4uoV9VN_RN5vRA32w0V_m7USWoCFcVzyYEq8C0CLjT0k0Utk2AK13O1NFEygP30pINmJ8WicE-1WOk_tP-6XIgOD_3tsEmQCcximxBwvDM_Y_-G-BiWJKEe9LkXC7CYm5EWo=s680-w680-h510-rw"
+    },
+    {
+      "nome": "CAPS Espaço Azul",
+      "endereco": "Av. Norte, 5035 – Casa Amarela",
+      "telefone": "(81) 3355-4280 / 4281",
+      "horario": "Atendimento 24h",
+      "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noiymEzS5TWCYrULaeeh98InZ2i0tqXdJ23xdfs0z89kSQTmO9s-RZq6XYNMcNbGZYK-JwUI6374esguuEv4iOadp4jQM2ByU5HILiNh8BC-gc6OX4CkbMKKKSAjibWvBjMAXIH=s680-w680-h510-rw"
+    },
+    {
+      "nome": "CAPS Espaço Vida",
+      "endereco": "Rua Ambrosio Machado, 280 – Iputinga",
+      "telefone": "(81) 3355-4288 / 4289",
+      "horario": "Segunda a sexta, das 8h às 17h",
+      "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npnDA8TAV1MJbcyZ2kXGrmiz6oh0IUbLTXJJvQjkwBbkI6UQe4hDmcgrPfYulvGBSnoDvwhrmEUANPUQ7Rx7Q_r8steyMoNbXO58aKuYcV2w3ME0YQ745dPHIxTlUfSAmvQfIw=s680-w680-h510-rw"
+    },
+    {
+      "nome": "CAPS Centro Eulâmpio Cordeiro de Recuperação Humana",
+      "endereco": "Rua Rondônia, 100 – Cordeiro",
+      "telefone": "(81) 3355-4314",
+      "horario": "Segunda a sexta, das 8h às 21h",
+      "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np3jQcgbTvJ92y7_RQuJKe5e127UEVJIe0OHwIu0f45oEAh3x9WqtNKXVYgfi_CIhLfhJG1WImb4M2VjS1ShP1rtiSHPvE7ROJ9yU3xwiwftY0vfcOY5b8vfldflJaj0KmvVic7AG25KMI=w141-h101-n-k-no-nu"
+    },
+    {
+      "nome": "CAPSi Clea Lacet (Adolescentes)",
+      "endereco": "Rua Emílio Torreão, 154 – Afogados",
+      "telefone": "(81) 3355-4272 / 4273",
+      "horario": "Segunda a sexta, das 8h às 17h",
+      "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr94KhE83gDpESvBGIWwy3Cb-m6DO4aECFTKwMa3RfXkSEyZeAx0uh2tlQ2Ei7B-GOjWE9QBZxnuDCJXOtjrUjJouMRM5GftZoBLOMzGSTcoS5UY6KnBj6S9kz5REcHT7vmUq0I6w=w408-h306-k-no"
+    },
+    {
+      "nome": "CAPS AD Espaço Travessia René Ribeiro",
+      "endereco": "Rua Jacira, 210 – Afogados",
+      "telefone": "(81) 3355-3346",
+      "horario": "Segunda a sexta, das 8h às 21h",
+      "imagem": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=S8umDm3KlRtbCNoRO8LM3Q&cb_client=search.gws-prod.gps&w=408&h=240&yaw=258.8644&pitch=0&thumbfov=100"
+    },
+    {
+      "nome": "CAPS David Capistrano",
+      "endereco": "Rua Virgínia Heráclio, 893 – Ipsep",
+      "telefone": "(81) 3355-4276 / 4277",
+      "horario": "Atendimento 24h",
+      "imagem": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noJOVbsHMJ-Zyi5fs152h78ItMO2Ut5hGUWAHNawaneX-VIXh6Gw13O00_ABTxHG3DL5jR3dI_u1IaCqqXjWlJhlqK9jV9IZ_g6B3vavoko4czF6_IzLRYc0MurVkTHtRg3P9bq1g=w426-h240-k-no"
+    },
+    {
+      "nome": "CAPS AD Prof. José Lucena",
+      "endereco": "Rua Santos Cosme e Damião, 186 – Ipsep",
+      "telefone": "(81) 3355-4256 / 4257",
+      "horario": "Segunda a sexta, das 8h às 21h",
+      "imagem": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=8UigCrVQN_N0BVLxZ9NRqQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=317.20084&pitch=0&thumbfov=100"
+    },
+    {
+      "nome": "CAPS Espaço Livremente",
+      "endereco": "Rua Waldemar Nery Carneiro Monteiro, 531 – Setúbal",
+      "telefone": "(81) 3355-4284 / 4285",
+      "horario": "Atendimento 24h",
+      "imagem": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Q7rqnqbASvq4HCJ9tjtxZQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=93.24472&pitch=0&thumbfov=100"
+    }
+  ],
+  "apoio_emocional_nacional": {
+    "nome": "Centro de Valorização da Vida (CVV)",
+    "telefone": "188",
+    "descricao": "Ligação gratuita e anônima, atendimento 24h por telefone, chat e presencial.",
+    "site": "https://www.cvv.org.br",
+    "imagem": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb"
+  }
+}
