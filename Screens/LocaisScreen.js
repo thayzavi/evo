@@ -32,8 +32,10 @@ export default function App(){
                 <TextInput 
                 label="Buscar por nome ou endereço"
                 value={busca}
+                placeholderTextColor="#888"
                 onChangeText={setBusca}
                 mode="outlined"
+                textColor="#000000"
                 style={styles.input}
                 />
 
@@ -42,7 +44,7 @@ export default function App(){
                 <>
                     <Text style={styles.titulo}>Apoio Emocional Nacional</Text>
                     <Card style={styles.card}>
-                        <Card.Title title={apoio_emocional_nacional.nome}/>
+                        <Card.Title titleStyle={styles.title} title={apoio_emocional_nacional.nome}/>
                         <Card.Content>
                             {apoio_emocional_nacional.imagem && (
                                 <Image 
@@ -50,8 +52,8 @@ export default function App(){
                                     style={styles.imagem}
                                 />
                             )}
-                            <Text> 📝 {apoio_emocional_nacional.descricao}</Text>
-                            <Text> 🌐 {apoio_emocional_nacional.site}</Text>
+                            <Text style={styles.txt}> 📝 {apoio_emocional_nacional.descricao}</Text>
+                            <Text style={styles.txt}> 🌐 {apoio_emocional_nacional.site}</Text>
                             <View style={styles.row}>
                                 <MaterialIcons name="phone" size={20} color="#007aff" />
                                 <Button onPress={() => ligar(apoio_emocional_nacional.telefone)}> Ligar </Button>
@@ -64,7 +66,7 @@ export default function App(){
                 <Text style={styles.titulo}>Hospitais</Text>
                 {hospitaisFiltrados.map((item, index) =>(
                     <Card key={index} style={styles.card}>
-                        <Card.Title style={styles.title} title={item.nome}/>
+                        <Card.Title titleStyle={styles.title} title={item.nome}/>
                         <Card.Content>
                             {item.imagem && (
                                 <Image 
@@ -86,7 +88,7 @@ export default function App(){
                 <Text style={styles.titulo}>CAPS Recife</Text>
                 {capsFiltrados.map((caps, index) =>(
                     <Card key={index} style={styles.card}>
-                        <Card.Title style={styles.title} title={caps.nome}/>
+                        <Card.Title titleStyle={styles.title} title={caps.nome}/>
                         <Card.Content>
 
                             {caps.imagem && (
@@ -122,18 +124,22 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginVertical: 10,
         marginBottom: 5,
+        color: '#000000'
     },
     txt:{
         marginTop: 7,
+        color: '#000000'
     },
     title: {
         fontSize: 20,
         fontWeight: '600',
+        color: '#000000'
 
     },
     card: {
         marginBottom: 10,
         paddingBottom: 5,
+        backgroundColor:'#fff'
     },
     row: {
         flexDirection: 'row',
@@ -143,6 +149,7 @@ const styles = StyleSheet.create({
     input:{
         marginBottom:5,
         borderRadius: 10,
+        backgroundColor: '#fff'
     },
     imagem:{
         width: '100%',

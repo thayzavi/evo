@@ -18,7 +18,7 @@ export default function ChatScreen(){
     setCarregando(true);//carregamento da pagina
 
     try{
-      const respostaApi = await axios.post('http://192.168.0.17:3000/chat', {
+      const respostaApi = await axios.post('https://back-evo.onrender.com/chat', {
         mensagem: novaMensagem.texto,
       });
 
@@ -89,10 +89,11 @@ export default function ChatScreen(){
             <TextInput
             placeholder="Digite sua mensagem..."
             value={mensagem}
+            placeholderTextColor="#000000"
             onChangeText={setMensagem}
             mode="outlined"
             style={styles.input}
-            multiline
+            textColor="#000000"
             />
             <Button
              mode="contained" 
@@ -175,9 +176,12 @@ const styles = StyleSheet.create({
     flex:1,
     marginBottom: 10,
     height: 55,
+    backgroundColor: '#fff',
+    color: '#000000'
   },
   rdBtn:{
     marginLeft: 10,
     borderRadius: 50,
+    backgroundColor: '#8000c9'
   },
 });

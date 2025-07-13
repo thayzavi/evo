@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const modelId = 'deepseek/deepseek-chat'; 
+const modelId = 'mistral-saba-24b'; 
 
 app.post('/chat', async (req, res) => {
   const { mensagem } = req.body;
@@ -23,7 +23,7 @@ app.post('/chat', async (req, res) => {
 
     // Realizando a requisição para o modelo de IA
     const resposta = await axios.post(
-        `https://openrouter.ai/api/v1/chat/completions`,
+        `https://api.groq.com/openai/v1/chat/completions`,
         {
         model: modelId,
         messages: [
@@ -37,7 +37,7 @@ app.post('/chat', async (req, res) => {
         },
         {
             headers: {
-            Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
+            Authorization: `Bearer ${process.env.GROQ_API_KEY}`,
             'Content-Type': 'application/json',
             },
         }
